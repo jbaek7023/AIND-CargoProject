@@ -54,9 +54,9 @@ class AirCargoProblem(Problem):
 
         def load_actions():
             '''Create all concrete Load actions and return a list
-            Action(Load(c, p, a),
-                PRECOND: At(c, a) ∧ At(p, a) ∧ Cargo(c) ∧ Plane(p) ∧ Airport(a)
-                EFFECT: ¬ At(c, a) ∧ In(c, p))
+                Action(Load(c, p, a),
+                    PRECOND: At(c, a) ∧ At(p, a) ∧ Cargo(c) ∧ Plane(p) ∧ Airport(a)
+                    EFFECT: ¬ At(c, a) ∧ In(c, p))
             :return: list of Action objects
             '''
             loads = []
@@ -78,9 +78,9 @@ class AirCargoProblem(Problem):
 
         def unload_actions():
             '''Create all concrete Unload actions and return a list
-            Action(Unload(c, p, a),
-                PRECOND: In(c, p) ∧ At(p, a) ∧ Cargo(c) ∧ Plane(p) ∧ Airport(a)
-                EFFECT: At(c, a) ∧ ¬ In(c, p))
+                Action(Unload(c, p, a),
+                    PRECOND: In(c, p) ∧ At(p, a) ∧ Cargo(c) ∧ Plane(p) ∧ Airport(a)
+                    EFFECT: At(c, a) ∧ ¬ In(c, p))
             :return: list of Action objects
             '''
             unloads = []
@@ -104,9 +104,9 @@ class AirCargoProblem(Problem):
 
         def fly_actions():
             '''Create all concrete Fly actions and return a list
-            Action(Fly(p, from, to),
-                PRECOND: At(p, from) ∧ Plane(p) ∧ Airport(from) ∧ Airport(to)
-                EFFECT: ¬ At(p, from) ∧ At(p, to))
+                Action(Fly(p, from, to),
+                    PRECOND: At(p, from) ∧ Plane(p) ∧ Airport(from) ∧ Airport(to)
+                    EFFECT: ¬ At(p, from) ∧ At(p, to))
             :return: list of Action objects
             '''
             flys = []
@@ -167,7 +167,22 @@ class AirCargoProblem(Problem):
         """
         # TODO implement
         new_state = FluentState([], [])
+        old_state = decode_state(state, self.state_map)
+        for fluent in old_state.pos:
+            if fluent not in action.effect_rem:
+                new_state.pos.append(fluent)
+        for fluent in action.effect_add:
+            if fluent not in new_state.pos:
+                new_state.pos.append(fluent)
+        for fluent in old_state.neg:
+            if fluent not in action.effect_add:
+                new_state.neg.append(fluent)
+        for fluent in action.effect_rem:
+            if fluent not in new_state.neg:
+                new_state.neg.append(fluent)
         return encode_state(new_state, self.state_map)
+
+
 
     def goal_test(self, state: str) -> bool:
         """ Test the state to see if goal is reached
@@ -207,8 +222,14 @@ class AirCargoProblem(Problem):
         executed.
         '''
         # TODO implement (see Russell-Norvig Ed-3 10.2.3  or Russell-Norvig Ed-2 11.2)
-        count = 0
+        kb = PropKB()
 
+        kb.tell(decode_state(node.state, self.state_map).pos_sentence())
+
+        count = 0
+        for clause in self.goal:
+            if clause not in kb.clauses:
+                count += 1
         return count
 
 
