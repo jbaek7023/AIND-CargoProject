@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e135fbd2-893d-418c-a988-cdb9a1a4f940" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_air_cargo_problems.py" afterPath="$PROJECT_DIR$/my_air_cargo_problems.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +21,10 @@
       <file leaf-file-name="my_air_cargo_problems.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_air_cargo_problems.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-173">
-              <caret line="223" column="4" lean-forward="false" selection-start-line="223" selection-start-column="4" selection-end-line="223" selection-end-column="4" />
+            <state relative-caret-position="-728">
+              <caret line="227" column="31" lean-forward="true" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
-                <marker date="1492526979720" expanded="true" signature="301:1158" ph="..." />
-                <marker date="1492526979720" expanded="true" signature="359:377" ph="..." />
-                <marker date="1492526979720" expanded="true" signature="5794:5798" ph="..." />
-                <marker date="1492526979720" expanded="true" signature="6732:6744" ph="..." />
-                <marker date="1492526979720" expanded="true" signature="7202:7206" ph="..." />
-                <marker date="1492526979720" expanded="true" signature="7587:7592" ph="..." />
-                <marker date="1492526979720" expanded="true" signature="7721:7726" ph="..." />
-                <marker date="1492526979720" expanded="true" signature="8203:8208" ph="..." />
-                <marker date="1492526979720" expanded="true" signature="8633:8635" ph="..." />
-                <marker date="1492526979720" expanded="true" signature="9346:9348" ph="..." />
-                <marker date="1492526979720" expanded="true" signature="10431:10433" ph="..." />
               </folding>
             </state>
           </provider>
@@ -44,8 +33,8 @@
       <file leaf-file-name="my_planning_graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_planning_graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2574">
-              <caret line="117" column="91" lean-forward="false" selection-start-line="117" selection-start-column="85" selection-end-line="117" selection-end-column="91" />
+            <state relative-caret-position="220">
+              <caret line="212" column="27" lean-forward="false" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="27" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
                 <marker date="1490584022020" expanded="true" signature="156:941" ph="..." />
@@ -79,6 +68,7 @@
       <find>action</find>
       <find>Action</find>
       <find>expr</find>
+      <find>FluentState</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,7 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,6 +150,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -263,6 +253,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -410,7 +406,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3018868" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20976692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -436,21 +432,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/my_air_cargo_problems.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="252" column="6" lean-forward="false" selection-start-line="252" selection-start-column="6" selection-end-line="252" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_planning_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="117" column="91" lean-forward="false" selection-start-line="117" selection-start-column="85" selection-end-line="117" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1490584022020" expanded="true" signature="156:941" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="621:623" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="1284:2520" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="1674:1686" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="3188:4593" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="3295:3302" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="6436:6450" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="6938:8262" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="7105:7120" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="14941:14959" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="15571:15589" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="16239:16257" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="16908:16926" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="17349:17353" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="18142:18160" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="18747:18765" ph="..." />
+            <marker date="1490584022020" expanded="true" signature="19536:19538" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_air_cargo_problems.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
-            <marker date="1492526979720" expanded="true" signature="301:1158" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="359:377" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="5794:5798" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="6732:6744" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="7202:7206" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="7587:7592" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="7721:7726" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="8203:8208" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="8633:8635" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="9346:9348" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="10431:10433" ph="..." />
           </folding>
         </state>
       </provider>
@@ -488,17 +510,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
-            <marker date="1492526979720" expanded="true" signature="301:1158" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="359:377" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="5794:5798" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="6732:6744" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="7202:7206" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="7587:7592" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="7721:7726" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="8203:8208" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="8633:8635" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="9346:9348" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="10431:10433" ph="..." />
           </folding>
         </state>
       </provider>
@@ -540,10 +551,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aimacode/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="465" column="17" lean-forward="false" selection-start-line="465" selection-start-column="13" selection-end-line="465" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_planning_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="117" column="91" lean-forward="false" selection-start-line="117" selection-start-column="85" selection-end-line="117" selection-end-column="91" />
+        <state relative-caret-position="220">
+          <caret line="212" column="27" lean-forward="false" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="27" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <marker date="1490584022020" expanded="true" signature="156:941" ph="..." />
@@ -567,31 +586,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aimacode/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="465" column="17" lean-forward="false" selection-start-line="465" selection-start-column="13" selection-end-line="465" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_air_cargo_problems.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="223" column="4" lean-forward="false" selection-start-line="223" selection-start-column="4" selection-end-line="223" selection-end-column="4" />
+        <state relative-caret-position="-728">
+          <caret line="227" column="31" lean-forward="true" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
-            <marker date="1492526979720" expanded="true" signature="301:1158" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="359:377" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="5794:5798" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="6732:6744" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="7202:7206" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="7587:7592" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="7721:7726" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="8203:8208" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="8633:8635" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="9346:9348" ph="..." />
-            <marker date="1492526979720" expanded="true" signature="10431:10433" ph="..." />
           </folding>
         </state>
       </provider>
